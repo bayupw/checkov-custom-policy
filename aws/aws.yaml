@@ -15,3 +15,11 @@ definition:
     resource_types: "all"
     attribute: "environment"
     operator: exists
+  - cond_type: "attribute"
+    resource_types: "all"
+    attribute: "business service"
+    operator: exists
+  - cond_type: "attribute"
+    resource_types: "all"
+    attribute: "cost centre"
+    operator: exists
